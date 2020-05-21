@@ -12,7 +12,7 @@ directory '/opt/jenkins' do
   group 'ubuntu'
 end
 
-remote_file '/home/ubuntu/chef-workstation_0.10.41-1_amd64.deb' do
+remote_file '/home/ubuntu/chef-workstation_0.17.5-1_amd64.deb' do
   action :create
   source 'https://packages.chef.io/files/stable/chef-workstation/0.17.5/ubuntu/16.04/chef-workstation_0.17.5-1_amd64.deb'
 end
