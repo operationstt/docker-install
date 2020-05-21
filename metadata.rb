@@ -1,10 +1,11 @@
 name 'docker-install'
-maintainer 'The Authors'
-maintainer_email 'you@example.com'
+maintainer 'TechnoTrainer, Inc'
+maintainer_email 'elon@technotrainer.com'
 license 'All Rights Reserved'
 description 'Installs/Configures docker-install'
 version '0.1.0'
 chef_version '>= 14.0'
+depends 'docker'
 
 # The `issues_url` points to the location where issues for this cookbook are
 # tracked.  A `View Issues` link will be displayed on this cookbook's page when

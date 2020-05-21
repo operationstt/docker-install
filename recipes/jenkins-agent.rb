@@ -25,3 +25,9 @@ end
 docker_installation 'default' do
   action :create
 end
+
+group 'docker' do
+  action :modify
+  members 'ubuntu'
+  append true
+end
